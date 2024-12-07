@@ -13,6 +13,19 @@ body {
     overflow-x: hidden;
 }
 
+/* Top Banner as Background */
+.header-banner {
+    width: 100%;
+    height: 500px; /* 固定高度，适合展示完整图片 */
+    background-image: url('HS2.jpg.png'); /* 替换为实际图片路径 */
+    background-size: auto; /* 确保图片覆盖整个区域 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-position: center; /* 图片居中对齐 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 阴影效果，增加层次感 */
+    border-bottom: 5px solid #00d9ff; /* 可选：添加底部边框 */
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -26,7 +39,7 @@ header {
 }
 
 header .logo {
-    max-height: 70px;
+    max-height: 100px;
     filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 0.5));
     animation: pulse 3s infinite; /* 科幻脉冲效果 */
 }
@@ -54,6 +67,7 @@ header nav a:hover {
     color: #00d9ff; /* 明亮蓝色悬停效果 */
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
     padding: 4rem 2rem;
