@@ -150,8 +150,24 @@ header nav a:hover {
     color: #00d9ff;
 }
 
-/* Contact Section */
+
+.contact-intro {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2rem; 
+    color: #f4f4f4;
+}
+
+
 .contact-form {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
     background: #1b263b;
     color: #f4f4f4;
     padding: 3rem 2rem;
@@ -160,6 +176,18 @@ header nav a:hover {
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
+
+
+.why-contact {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 2rem; 
+    color: #f4f4f4;
+}
+
 
 .contact-form form {
     display: flex;
