@@ -7,23 +7,22 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #0d1b2a, #1b263b); /* 深蓝色渐变背景 */
+    background: linear-gradient(135deg, #0d1b2a, #1b263b); 
     color: #f4f4f4;
     line-height: 1.6;
     overflow-x: hidden;
 }
 
-/* Top Banner as Background */
+
 .header-banner {
     width: 100%;
-    height: 500px; /* 固定高度，适合展示完整图片 */
-    background-image: url('HS2.jpg.png'); /* 替换为实际图片路径 */
-    background-size: auto; /* 确保图片覆盖整个区域 */
-    background-repeat: no-repeat; /* 防止图片重复 */
-    background-position: center; /* 图片居中对齐 */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 阴影效果，增加层次感 */
-    border-bottom: 5px solid #00d9ff; /* 可选：添加底部边框 */
-}
+    height: 500px; 
+    background-image: url('HS2.jpg.png'); 
+    background-size: auto; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    border-bottom: 5px solid #00d9ff; 
 
 
 header {
@@ -31,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: rgba(13, 27, 42, 0.8); /* 半透明深蓝背景 */
+    background-color: rgba(13, 27, 42, 0.8); 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
@@ -41,8 +40,7 @@ header {
 header .logo {
     max-height: 100px;
     filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 0.5));
-    animation: pulse 3s infinite; /* 科幻脉冲效果 */
-}
+    animation: pulse 3s infinite; 
 
 @keyframes pulse {
     0%, 100% {
@@ -64,7 +62,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #00d9ff; /* 明亮蓝色悬停效果 */
+    color: #00d9ff; 
 }
 
 /* Hero Section */
@@ -111,7 +109,7 @@ header nav a:hover {
     padding: 3rem 2rem;
     text-align: center;
     background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px); /* 背景模糊 */
+    backdrop-filter: blur(10px); 
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 2rem auto;
     border-radius: 10px;
